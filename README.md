@@ -24,13 +24,17 @@ Rows: 64,000+
 Key columns: title, platform, genre, critic_score, total_sales, release_year
 
 --------------------------------------------
-Data Quality Issues Found
+Data Cleaning
 
-critic_score — 57,338 null values (will drop this column)
+Dropped columns: img, critic_score, jp_sales — too many nulls
+Dropped rows where total_sales was null
+Final dataset: 18,922 rows, 11 columns
 
-jp_sales — 57,290 null values (will drop this column)
+Key Findings
 
------------------
+GTA V is the highest selling game of all time (20.32M copies on PS3)
+PC has the most games released (12,617 games)
+Misc is the largest genre but Action is the most recognizable dominant genre
+
 Status
-🔄 In Progress
------------------
+🔄 In Progress — Visualizations coming next
