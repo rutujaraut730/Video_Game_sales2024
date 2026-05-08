@@ -10,8 +10,11 @@ Analyzing global video game sales to find the most popular games, platforms, and
 
 -------------------------
 Questions I'm Exploring:-
+
 1.Which game has the highest global sales of all time?
+
 2.Which platform has the most games released?
+
 3.Which genre is most popular and which games in it are newest?
 
 --------------------------------
@@ -30,6 +33,7 @@ Dropped columns: img, critic_score, jp_sales — too many nulls
 Dropped rows where total_sales was null
 Final dataset: 18,922 rows, 11 columns
 
+--------------------------------------------
 Key Findings
 
 GTA V is the highest selling game of all time (20.32M copies on PS3)
