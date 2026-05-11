@@ -1,4 +1,4 @@
-  Video Game Sales Analysis
+Video Game Sales Analysis
 ---------------------------
 Tool: Python, Pandas, Jupyter Notebook
 
